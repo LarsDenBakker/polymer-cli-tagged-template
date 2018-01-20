@@ -1,0 +1,20 @@
+{
+  "name": "poylmer-cli-tagged-template",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Lars den Bakker <lars.den.bakker@ing.nl>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "2.4.0-rc.1"
+  }
+}

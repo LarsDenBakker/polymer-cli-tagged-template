@@ -1,0 +1,10 @@
+<link rel="import" href="../bower_components/polymer/lib/utils/html-tag.html">
+<link rel="import" href="./compose-template.html">
+
+<script>
+    (function (namespace) {
+      const template = namespace.composeTemplate(Polymer.html`<span>wrapped template</span>`);
+      const instance = document.importNode(template.content, true);
+      document.body.appendChild(instance);
+    }(window.testNamespace = window.testNamespace || {}));
+</script>

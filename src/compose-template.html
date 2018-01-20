@@ -1,0 +1,7 @@
+<script>
+  (function (namespace) {
+    namespace.composeTemplate = (template) => {
+      return Polymer.html`<div>Composed template wraps ${template}</div>`;
+    };
+  }(window.testNamespace = window.testNamespace || {}));
+</script>
